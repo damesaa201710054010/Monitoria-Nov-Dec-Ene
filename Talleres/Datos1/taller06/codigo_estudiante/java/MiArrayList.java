@@ -23,7 +23,7 @@ public class MiArrayList {
     * variables a valores neutros como 0 o null.
     * El contructor no lleva parámetros en este caso.
     */
-    public MiArrayLis() {
+    public MiArrayList() {
         //...
     }     
 

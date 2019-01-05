@@ -5,11 +5,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class LinkedListMauricioTest {
+public class LinkedListTest {
 
 	@Test
 	public void testInsert() {
-		LinkedListMauricio list = new LinkedListMauricio();
+		LinkedList list = new LinkedListMauricio();
 		list.insert(5, 0);
 		list.insert(4, 0);
 		list.insert(3, 0);

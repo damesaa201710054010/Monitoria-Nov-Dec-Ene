@@ -1,9 +1,9 @@
 import java.lang.IndexOutOfBoundsException; // Usar esto cuando se salga el índice
 // Una lista simplemente enlazada
-public class LinkedListMauricio {
+public class LinkedList {
 private Node first;
 private int size;
-public LinkedListMauricio()
+public LinkedList()
 {
 	size = 0;
 	first = null;	
