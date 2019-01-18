@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hardcorefp;
+//package hardcorefp;
 
 import java.io.IOException;
 import java.util.Iterator;
@@ -13,10 +13,10 @@ import java.util.TreeMap;
 
 /**
  * Clase que contiene las estructuras principales que se implementaron
- * Consideraciones: 
+ * Consideraciones:
  * anietog1 es nuestro camarada del grupo de competitiva
  *
- * @author evinracher 
+ * @author evinracher
  * @author anietog1
  * @author Daniel Mesa
  */
@@ -26,8 +26,8 @@ public class HardcoreFP {
     public static TreeMap arbol;
 
     /**
-     * Metodo constructor, el cual instancia un objeto de la clase HFPRead, el 
-     * cual lee un archivo de texto que contiene la estructura a procesar y luego 
+     * Metodo constructor, el cual instancia un objeto de la clase HFPRead, el
+     * cual lee un archivo de texto que contiene la estructura a procesar y luego
      * genera un objeto de la clase TreeMap
      * @throws IOException Porque usamos BufferedReader
      */
@@ -48,7 +48,7 @@ public class HardcoreFP {
     }
 
     /**
-     * Metodo para generar el codigo que dibuja el arbol en la pagina: 
+     * Metodo para generar el codigo que dibuja el arbol en la pagina:
      * http://www.webgraphviz.com/
      * Este metodo tiene algunas inconsistencias
      */
@@ -133,9 +133,9 @@ public class HardcoreFP {
             }
         });
     }
-    
+
     /**
-     * Metodo para listar, en forma de arbol, los archivos y carpetas del TreeMap 
+     * Metodo para listar, en forma de arbol, los archivos y carpetas del TreeMap
      */
     public void listar() {
         listarAux(home, "-");
@@ -193,7 +193,7 @@ public class HardcoreFP {
     }
     /**
      * Metodo para obtener la ruta de un archivo o una carpet
-     * @param nombre del archivo o la carpeta de la cual se quiere saber 
+     * @param nombre del archivo o la carpeta de la cual se quiere saber
      * la ruta
      */
     public void obtRutaC(String nombre) {
@@ -222,7 +222,7 @@ public class HardcoreFP {
         }
     }
 
-    
+
     /**
      * Permite obtener la ruta de un archivo o carpeta
      * @param archivo  Archivo a obtener ruta

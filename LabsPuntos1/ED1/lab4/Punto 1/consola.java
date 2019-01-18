@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hardcorefp;
+//package hardcorefp;
 
 import static hardcorefp.HardcoreFP.obtRutaAux;
 import java.io.BufferedReader;

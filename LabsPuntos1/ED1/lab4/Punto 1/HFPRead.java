@@ -1,4 +1,4 @@
-package hardcorefp;
+//package hardcorefp;
 import java.util.*;
 import java.io.*;
 //Clase hecha en colaboracion con Agustin <3
@@ -33,7 +33,7 @@ public class HFPRead {
         return home;
     }
 
-    
+
     private boolean isLetter(int a) {
         return (a >= 'A' && a <= 'Z') || (a >= 'a' && a <= 'z');
     }

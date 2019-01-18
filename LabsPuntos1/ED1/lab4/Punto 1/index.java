@@ -1,4 +1,4 @@
-package hardcorefp;
+//package hardcorefp;
 
 import java.io.IOException;
 
@@ -10,9 +10,9 @@ import java.io.IOException;
  * @author Daniel Mesa
  */
 public class index {
-    
+
     public static void main(String[] args) throws IOException{
-        consola Probando = new consola();  
+        consola Probando = new consola();
         try {
             Probando.consola();
         } catch (Exception e) {
