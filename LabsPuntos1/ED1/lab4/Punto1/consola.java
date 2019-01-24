@@ -5,7 +5,7 @@
  */
 //package hardcorefp;
 
-import static hardcorefp.HardcoreFP.obtRutaAux;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -257,5 +257,19 @@ public class consola {
          * }
          */
     }
+
+     public String obtRutaAux(AbstractClass archivo, String ruta, int cont) {
+
+        AbstractClass padre;
+        if (archivo != null) {
+            padre = archivo.getPadre();
+            cont++;
+            return obtRutaAux(padre, "/", cont) + ruta + archivo.getNombre();
+        } else {
+
+            return "";
+        }
+    }
+
 
 }

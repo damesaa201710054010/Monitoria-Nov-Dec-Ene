@@ -1,7 +1,7 @@
 //package hardcorefp;
 import java.util.*;
 import java.io.*;
-//Clase hecha en colaboracion con Agustin <3
+
 
 /**
  * Clase para la lectura del archivo txt
