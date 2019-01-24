@@ -4,7 +4,12 @@
 * @author Daniel Mesa, Mauricio Toro
 * @version 1.0
 */
-public class splantilla
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader; //por teclado
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+public class Splantilla
 {
   /**
   * El metodo debe de leer el archivo y construir la estrcutura de datos con el mapa
